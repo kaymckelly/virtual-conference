@@ -51,8 +51,9 @@
         <a href="https://link.springer.com/book/10.1007/978-3-030-45724-2">12106</a>,
         <a href="https://link.springer.com/book/10.1007/978-3-030-45727-3">12107</a>.
         Most papers below have links to individual videos prepared by the authors,
-        but there is also a <a href="https://www.youtube.com/playlist?list=PLeeS-3Ml-rpp-srdkwAWDA9hlvEyOZCcx">playlist
-          on YouTube</a>
+        but there is also a <a href="https://www.youtube.com/playlist?list=PLeeS-3Ml-rpp-srdkwAWDA9hlvEyOZCcx">playlist</a>
+        on <a href="https://youtube.com/TheIACR">the IACR YouTube channel</a>, and there will be live streaming there
+        as well.
         </p>
         <p>
           The program below has links to chat streams on individual sessions, but there is also
