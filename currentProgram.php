@@ -31,6 +31,7 @@ $confname = 'eurocrypt2020';
 $editorData = json_decode(file_get_contents('json/program.json'), TRUE);
 $extraLinks = json_decode(file_get_contents('json/extraLinks.json'), TRUE);
 $youtube = $extraLinks['youtube'];
+$slides = $extraLinks['slides'];
 header('Content-Type: application/json');
 foreach($editorData['days'] as $dayindex => &$day) {
   foreach ($day['timeslots'] as $timeslotindex => &$timeslot) {
@@ -54,6 +55,9 @@ foreach($editorData['days'] as $dayindex => &$day) {
           $pubkey = $talk['pubkey'];
           if (isset($youtube[$pubkey])) {
             $talk['videoUrl'] = $youtube[$pubkey];
+          }
+          if (isset($slides[$pubkey])) {
+            $talk['slidesUrl'] = $slides[$pubkey];
           }
         }
         //$talk['videoUrl'] = proxyUrl($confname, 'https://iacr.org/submit/files/slides/2020/eurocrypt/kdev/2/slides.pdf');
