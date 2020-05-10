@@ -41,7 +41,15 @@
         Schedule Structure
       </h3>
       <p>
-        The conference is organized over 5 days, with approximately 4 hours per day. Sessions consist of live panel discussions (i.e. brief summaries of the papers, which are grouped by topic, followed by a Q&amp;A with the authors), invited talks, and a rump session. We recommend monitoring <a href="program.php">the conference program</a> to see which sessions are upcoming.
+        The conference is organized over 5 days, with approximately 4
+        hours per day. Sessions consist of live 5 minute presentations
+        of the papers, which are grouped by topic, followed by a Q&A
+        panel discussion with the speakers and session moderators. The
+        conference will also feature two 25 minute best paper talks,
+        two live 1 hour invited talks, rump session, panel discussion
+        on contact tracing, and IACR membership meeting and Fellows
+        ceremony.  We recommend monitoring <a href="program.php">the
+        conference program</a> to see which sessions are upcoming.
       </p>
 
       <!-- <hr> -->
