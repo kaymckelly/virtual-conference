@@ -17,15 +17,19 @@
 
   <main class="container p-4">
 
+    <p class="alert alert-primary">
+      <strong>If you are registered, then you will find links on <a href="program.php">the program</a>
+      for all online activities. We also suggest you read the
+        <a href="participation.php">participation guidelines</a>
+        to see what it will be like.</strong>
+    </p>
     <!-- NOTE: below is placeholder content. please replace contents with your own content when ready. this content
     serves to give you an idea of what the structure of this page has looked like in the past -->
-    <p class="alert alert-info">
+    <p class="alert alert-secondary">
       <b>
         Due to the coronavirus spread, Eurocrypt 2020 will be
         virtual. The dates of this event are (close to) the original
-        dates: May 11-15 2020. We suggest you read the
-        <a href="participation.php">participation guidelines</a>
-        to see what it will be like.
+        dates: May 11-15 2020. 
       </b>
     </p>
 
