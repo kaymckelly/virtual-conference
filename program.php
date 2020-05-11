@@ -50,6 +50,8 @@
         the full LNCS volumes here: <a href="https://link.springer.com/book/10.1007/978-3-030-45721-1">12105</a>,
         <a href="https://link.springer.com/book/10.1007/978-3-030-45724-2">12106</a>,
         <a href="https://link.springer.com/book/10.1007/978-3-030-45727-3">12107</a>.
+        You may have to <a href="https://iacr.org/publications/access.php">login as an IACR member</a> to obtain
+        access.
         Most papers below have links to individual videos prepared by the authors,
         but there is also a <a href="https://www.youtube.com/playlist?list=PLeeS-3Ml-rpp-srdkwAWDA9hlvEyOZCcx">playlist</a>
         on <a href="https://youtube.com/TheIACR">the IACR YouTube channel</a>, and there will be live streaming there
@@ -150,17 +152,17 @@
                   </p>
                   {{#if paperUrl}}
                   <span class="talkMedia">
-                    Media: &nbsp; <a href="{{paperUrl}}"><img class="talkMediaIcon" src="images/icons/file.svg" title="Paper"></a>
+                    Media: &nbsp; <a target="_blank" href="{{paperUrl}}"><img class="talkMediaIcon" src="images/icons/file.svg" title="Paper"></a>
                   </span>
                   {{/if}}
                   {{#if slidesUrl}}
                   <span class="talkMedia">
-                    &nbsp; <a href="{{slidesUrl}}"><img class="talkMediaIcon" src="images/icons/presentation.svg" title="Slides"></a>
+                    &nbsp; <a target="_blank" href="{{slidesUrl}}"><img class="talkMediaIcon" src="images/icons/presentation.svg" title="Slides"></a>
                   </span>
                   {{/if}}
                   {{#if videoUrl}}
                   <span class="talkMedia">
-                    &nbsp; <a href="{{videoUrl}}"><img class="talkMediaIcon" src="images/icons/video.svg" title="Video"></a>
+                    &nbsp; <a target="_blank" href="{{videoUrl}}"><img class="talkMediaIcon" src="images/icons/video.svg" title="Video"></a>
                   </span>
                   {{/if}}
                   {{/each}}
@@ -201,17 +203,17 @@
                   </p>
                   {{#if paperUrl}}
                   <span class="talkMedia">
-                    Media: &nbsp; <a href="{{paperUrl}}"><img class="talkMediaIcon" src="images/icons/file.svg" title="Paper"></a>
+                    Media: &nbsp; <a target="_blank" href="{{paperUrl}}"><img class="talkMediaIcon" src="images/icons/file.svg" title="Paper"></a>
                   </span>
                   {{/if}}
                   {{#if slidesUrl}}
                   <span class="talkMedia">
-                    &nbsp; <a href="{{slidesUrl}}"><img class="talkMediaIcon" src="images/icons/presentation.svg" title="Slides"></a>
+                    &nbsp; <a target="_blank" href="{{slidesUrl}}"><img class="talkMediaIcon" src="images/icons/presentation.svg" title="Slides"></a>
                   </span>
                   {{/if}}
                   {{#if videoUrl}}
                   <span class="talkMedia">
-                    &nbsp; <a href="{{videoUrl}}"><img class="talkMediaIcon" src="images/icons/video.svg" title="Video"></a>
+                    &nbsp; <a target="_blank" href="{{videoUrl}}"><img class="talkMediaIcon" src="images/icons/video.svg" title="Video"></a>
                   </span>
                   {{/if}}
                   {{/each}}
@@ -256,17 +258,17 @@
                   </p>
                   {{#if paperUrl}}
                   <span class="talkMedia">
-                    Media: &nbsp; <a href="{{paperUrl}}"><img class="talkMediaIcon" src="images/icons/file.svg" title="Paper"></a>
+                    Media: &nbsp; <a target="_blank" href="{{paperUrl}}"><img class="talkMediaIcon" src="images/icons/file.svg" title="Paper"></a>
                   </span>
                   {{/if}}
                   {{#if slidesUrl}}
                   <span class="talkMedia">
-                    &nbsp; <a href="{{slidesUrl}}"><img class="talkMediaIcon" src="images/icons/presentation.svg" title="Slides"></a>
+                    &nbsp; <a target="_blank" href="{{slidesUrl}}"><img class="talkMediaIcon" src="images/icons/presentation.svg" title="Slides"></a>
                   </span>
                   {{/if}}
                   {{#if videoUrl}}
                   <span class="talkMedia">
-                    &nbsp; <a href="{{videoUrl}}"><img class="talkMediaIcon" src="images/icons/video.svg" title="Video"></a>
+                    &nbsp; <a target="_blank" href="{{videoUrl}}"><img class="talkMediaIcon" src="images/icons/video.svg" title="Video"></a>
                   </span>
                   {{/if}}
                   {{/each}}

@@ -49,7 +49,7 @@
       </article>
     </div>
 
-      <h2 class="text-center">
+<!--      <h2 class="text-center">
         Time until Eurocrypt 2020
       </h2>
       <div id="clockdiv" class="d-flex flex-row justify-content-center">
@@ -70,7 +70,7 @@
           <div class="smalltext">Seconds</div>
         </div>
         </div>
-        <h3 class="text-center">
+ -->        <h3 class="text-center">
           You can still <a href="registration.php">register</a>
         </h3>
 <script>
@@ -113,8 +113,8 @@
    var timeinterval = setInterval(updateClock, 1000);
  }
 
- var deadline = new Date(Date.parse('2020-05-11T13:00:00Z'));
- initializeClock('clockdiv', deadline);
+// var deadline = new Date(Date.parse('2020-05-11T13:00:00Z'));
+// initializeClock('clockdiv', deadline);
 </script>
     <div class="row mt-4">
       <div class="col-lg-6">
