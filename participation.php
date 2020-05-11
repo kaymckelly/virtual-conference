@@ -155,6 +155,7 @@
               </p>
             </div>
             <div class="col-sm-5">
+              <p class="text-center">How to start a videoconference or watch party</p>
               <img src="images/jitsi.png" class="img-fluid ml-3 border shadow">
             </div>
           </div>

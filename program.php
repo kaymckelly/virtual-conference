@@ -291,7 +291,7 @@
     <script src="./js/tooltips.js"></script>
     <script src="https://iacr.org/libs/js/moment/moment.js"></script>
     <script src="https://iacr.org/libs/js/moment/moment-timezone-with-data-10-year-range.js"></script>
-    <script src="./js/program.js?v=2"></script>
+    <script src="./js/program.js?v=4"></script>
     <script>
       const now = new Date();
       let offset = now.getTimezoneOffset();
