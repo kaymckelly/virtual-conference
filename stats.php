@@ -152,10 +152,10 @@ Highcharts.mapChart('worldmap', {
               format: '{point.name}'
             },
             tooltip: {
-              pointFormat: '{point.code}: {point.value}'
+              pointFormat: '{point.name}: {point.value}'
             }
           }]
-        });
+  });
  let names = {
    "gg": "Guernsey",
    "sd": "Sudan",
@@ -408,7 +408,7 @@ Highcharts.mapChart('worldmap', {
    "li": "Liechtenstein"
   };
   let tbody = document.getElementById('tbody');
- console.dir(countrySorted);
+ console.dir(byCountry);
  countrySorted.forEach(function(item, index) {
     let tr = document.createElement('tr');
     let td = document.createElement('td');
