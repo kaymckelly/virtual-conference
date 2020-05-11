@@ -29,7 +29,7 @@
     <main class="container-fluid p-4">
 
       <h2 class="indPageTitle">
-      Statistics about attendees.
+      Statistics about attendees
       </h2>
       <div id="worldmap"></div>
       <div class="row">
