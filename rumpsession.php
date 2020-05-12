@@ -27,6 +27,86 @@
       <h3 class="pageSubtitle">
         Call for Papers
       </h3>
+      <div class="alert alert-danger">
+        <!-- NOTE: don't ask me why but you need .text-center on these p elements -->
+        <p class="text-center">
+          <strong>Submission deadline:</strong>  Tuesday 12 May 2020 11:59:59am UTC (extended)
+        </p>
+        <p class="text-center">
+          Deadline has now passed.
+        </p>
+      </div>
+<!--      <div class="alert alert-danger">
+        <h2 class="text-center">
+          Rump session deadline is soon!
+        </h2>
+        <div id="clockdiv" class="d-flex flex-row justify-content-center">
+          <div class="p-2 text-center">
+            <span class="days"></span>
+            <div class="smalltext">Days</div>
+          </div>
+          <div class="p-2 text-center">
+            <span class="hours"></span>
+            <div class="smalltext">Hours</div>
+          </div>
+          <div class="p-2 text-center">
+            <span class="minutes"></span>
+            <div class="smalltext">Minutes</div>
+          </div>
+          <div class="p-2 text-center">
+            <span class="seconds"></span>
+            <div class="smalltext">Seconds</div>
+          </div>
+        </div>
+      
+<script>
+ function getTimeRemaining(endtime) {
+   var t = Date.parse(endtime) - Date.parse(new Date());
+   var seconds = Math.floor((t / 1000) % 60);
+   var minutes = Math.floor((t / 1000 / 60) % 60);
+   var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+   var days = Math.floor(t / (1000 * 60 * 60 * 24));
+   return {
+     'total': t,
+     'days': days,
+     'hours': hours,
+     'minutes': minutes,
+     'seconds': seconds
+   };
+ }
+
+ function initializeClock(id, endtime) {
+   var clock = document.getElementById(id);
+   var daysSpan = clock.querySelector('.days');
+   var hoursSpan = clock.querySelector('.hours');
+   var minutesSpan = clock.querySelector('.minutes');
+   var secondsSpan = clock.querySelector('.seconds');
+
+   function updateClock() {
+     var t = getTimeRemaining(endtime);
+
+     daysSpan.innerHTML = t.days;
+     hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+     minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+     secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+     if (t.total <= 0) {
+       clearInterval(timeinterval);
+     }
+   }
+
+   updateClock();
+   var timeinterval = setInterval(updateClock, 1000);
+ }
+
+ var deadline = new Date(Date.parse('2020-05-12T11:59:00Z'));
+ initializeClock('clockdiv', deadline);
+</script>
+        <p class="text-center">
+          <strong>Time constraints:</strong> 1-5 minutes, 6 minutes if very funny
+        </p>
+        <a href="https://submit.iacr.org/ec2020rump/" class="btn btn-warning btn-block w-50 mx-auto">Submit a talk</a>
+      </div>-->
       <div class="row">
         <div class="col-12 col-md-7">
           <p>
@@ -41,16 +121,6 @@
         </div>
       </div>
 
-      <div class="alert alert-danger">
-        <!-- NOTE: don't ask me why but you need .text-center on these p elements -->
-        <p class="text-center">
-          <strong>Submission deadline:</strong> Tuesday, May 12 at 9 AM UTC
-        </p>
-        <p class="text-center">
-          <strong>Time constraints:</strong> 1-5 minutes, 6 minutes if very funny
-        </p>
-        <a href="https://submit.iacr.org/ec2020rump/" class="btn btn-warning btn-block w-50 mx-auto">Submit a talk</a>
-      </div>
 
       <h3 class="pageSubtitle">
         Platform
