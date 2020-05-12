@@ -24,7 +24,7 @@
       }
       #clockdiv {
         font-size: 2rem;
-        background-color: rgba(255,255,255,.8);
+        /* background-color: rgba(255,255,255,.8); */
       }
       h4 {
         color: #102A83;
@@ -37,14 +37,14 @@
   <body class="home">
     <audio id="ringtone" src="timer/melody.mp3" preload="auto"></audio>
 
-    <header id="headerGrad">
-      <h1 class="text-center pt-4">
+    <header id="headerGrad" class="pt-4 px-3 d-flex justify-content-between">
+      <h1>
         Eurocrypt 2020
       </h1>
-      <div id="clockdiv" class="d-none d-flex justify-content-center">
-        <span class="mr-5">Time until session starts:</span>
-        <div class="d-none px-1"><span class="days"></span></div>
-        <div class="d-none px-1"><span class="hours"></span>:</div>
+      <div id="clockdiv" class="d-flex w-50">
+        <h3 class="pt-2 mr-4">Time until session starts:</h3>
+        <!-- <div class="d-none px-1"><span class="days"></span></div>
+        <div class="d-none px-1"><span class="hours"></span>:</div> -->
         <div class="px-1 w-25">
           <span class="minutes"></span>:<span class="seconds"></span>
         </div>
