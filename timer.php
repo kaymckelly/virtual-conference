@@ -15,26 +15,136 @@
         background-color: white;
       }
       #headerGrad {
-/*        background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,.6))*/
-        background-image: 
+        background-image:
         url("timer/Zagreb.jpg");
         background-size: cover;
         background-position: center center;
         height: 25vh;
-        font-size: 2.5rem;
+        color: #102A83;
+      }
+      #clockdiv {
+        font-size: 2rem;
+        background-color: rgba(255,255,255,.8);
+      }
+      h4 {
+        color: #102A83;
       }
       footer {
-        display:none;
+        display: none;
       }
     </style>
   </head>
   <body class="home">
     <audio id="ringtone" src="timer/melody.mp3" preload="auto"></audio>
-    <?php
-    //require "includes/nav.php";
-    ?>
 
-    <div id="page" class="mt-0">
+    <header id="headerGrad">
+      <h1 class="text-center pt-4">
+        Eurocrypt 2020
+      </h1>
+      <div id="clockdiv" class="d-none d-flex justify-content-center">
+        <span class="mr-5">Time until session starts:</span>
+        <div class="d-none px-1"><span class="days"></span></div>
+        <div class="d-none px-1"><span class="hours"></span>:</div>
+        <div class="px-1 w-25">
+          <span class="minutes"></span>:<span class="seconds"></span>
+        </div>
+      </div>
+    </header>
+    <main class="container-fluid p-4">
+      <h2 class="indPageTitle text-center">
+        Many thanks to our sponsors
+      </h2>
+
+      <div id="sponsorslideshow" class="mt-4 w-75 mx-auto">
+        <section class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/sponsors/eurocrypt2020/tiilogo.png" class="d-block w-50 mx-auto" alt="Technology Innovation Institute">
+              <h4 class="text-center mt-3">
+                Diamond Sponsor
+              </h4>
+            </div>
+
+            <div class="carousel-item">
+              <img src="images/sponsors/eurocrypt2020/calibra.png" class="d-block w-50 mx-auto" alt="Calibra">
+              <h4 class="text-center mt-3">
+                Gold Sponsor
+              </h4>
+            </div>
+            <div class="carousel-item">
+              <img src="images/sponsors/eurocrypt2020/VisaResearch.png" class="d-block w-50 mx-auto" alt="Visa Research">
+              <h4 class="text-center mt-3">
+                Gold Sponsor
+              </h4>
+            </div>
+            <div class="carousel-item">
+              <img src="images/sponsors/eurocrypt2020/google.png" class="d-block w-50 mx-auto" alt="Google">
+              <h4 class="text-center mt-3">
+                Gold Sponsor
+              </h4>
+            </div>
+
+            <div class="carousel-item">
+              <img src="images/sponsors/eurocrypt2020/cloudflare.png" class="d-block w-50 mx-auto" alt="Cloudflare">
+              <h4 class="text-center mt-3">
+                Silver Sponsor
+              </h4>
+            </div>
+            <div class="carousel-item">
+              <img src="images/sponsors/eurocrypt2020/IBM-Research-logo.png" class="d-block w-50 mx-auto" alt="IBM Research">
+              <h4 class="text-center mt-3">
+                Silver Sponsor
+              </h4>
+            </div>
+
+            <div class="carousel-item">
+              <img src="images/sponsors/eurocrypt2020/CEAlogo.png" class="d-block w-50 mx-auto" alt="CEA">
+              <h4 class="text-center mt-3">
+                Bronze Sponsor
+              </h4>
+            </div>
+            <div class="carousel-item">
+              <img src="images/sponsors/eurocrypt2020/crx.png" class="d-block w-50 mx-auto" alt="CryptoExperts">
+              <h4 class="text-center mt-3">
+                Bronze Sponsor
+              </h4>
+            </div>
+            <div class="carousel-item">
+              <img src="images/sponsors/eurocrypt2020/hardwear_logo.png" class="d-block w-50 mx-auto bg-dark" alt="hardwear.io">
+              <h4 class="text-center mt-3">
+                Bronze Sponsor
+              </h4>
+            </div>
+            <div class="carousel-item">
+              <img src="images/sponsors/eurocrypt2020/Logo-Intrinsic-ID_238x40.png" class="d-block w-50 mx-auto" alt="Intrinsic ID">
+              <h4 class="text-center mt-3">
+                Bronze Sponsor
+              </h4>
+            </div>
+            <div class="carousel-item">
+              <img src="images/sponsors/eurocrypt2020/pqshield.jpg" class="d-block w-50 mx-auto" alt="PQShield">
+              <h4 class="text-center mt-3">
+                Bronze Sponsor
+              </h4>
+            </div>
+            <div class="carousel-item">
+              <img src="images/sponsors/eurocrypt2020/rambus.png" class="d-block w-50 mx-auto" alt="Rambus">
+              <h4 class="text-center mt-3">
+                Bronze Sponsor
+              </h4>
+            </div>
+            <div class="carousel-item">
+              <img src="images/sponsors/eurocrypt2020/PlatON.png" class="d-block w-50 mx-auto" alt="PlatON">
+              <h4 class="text-center mt-3">
+                Bronze Sponsor
+              </h4>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- <div id="page" class="mt-0">
       <div id="headerGrad">
         <div class="row">
           <div class="col-4">
@@ -104,7 +214,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
+    <!-- NOTE: you need this, even though you don't display it, as it includes jQuery -->
+    <?php include "includes/footer.php"; ?>
 <script>
  function getTimeRemaining(endtime) {
    var t = Date.parse(endtime) - Date.parse(new Date());
@@ -147,14 +259,14 @@
  }
 // var deadline = new Date(Date.parse('2020-05-11T13:00:00Z'));
  // initializeClock('clockdiv', deadline);
- 
+
 </script>
 
 <div class="modal fade" id="inputModal" tabindex="-1" role="dialog" aria-labelledby="inputLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h3>Enter the number of minutes</h3>
+        <h3>Set Timer</h3>
       </div>
       <div class="modal-body">
         <div class="form-group">
@@ -167,9 +279,7 @@
   </div>
 </div>
 
-<?php
-  include "includes/footer.php";
-  ?>
+
 <script>
  function setMinutes() {
    let input = document.getElementById('minutes-input');
