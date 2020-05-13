@@ -1,0 +1,461 @@
+{
+  "name": "Eurocrypt 2020 Rump Session",
+  "config": {
+    "default_track_locations": [
+      {
+        "name": "Enter a location"
+      }
+    ],
+    "default_talk_minutes": 4,
+    "unassigned_talks": [
+      {
+        "id": "category-37",
+        "name": "Uncategorized",
+        "talks": [
+          {
+            "paperId": "31",
+            "title": "Reveal #2: Pop quiz Question 4",
+            "abstract": "",
+            "authors": [
+              " RG"
+            ],
+            "affiliations": [
+              "Simons"
+            ],
+            "id": "talk-32"
+          },
+          {
+            "paperId": "32",
+            "title": "Reveal #3: Pop quiz Question 6",
+            "abstract": "",
+            "authors": [
+              "Rishab Goyal"
+            ],
+            "affiliations": [
+              "Simons Institute for the Theory of Computing"
+            ],
+            "id": "talk-33"
+          }
+        ]
+      }
+    ],
+    "uniqueIDIndex": 37
+  },
+  "days": [
+    {
+      "date": "2020-05-13",
+      "timeslots": [
+        {
+          "endtime": "17:49",
+          "starttime": "17:15",
+          "sessions": [
+            {
+              "session_title": "Part One",
+              "talks": [
+                {
+                  "paperId": "30",
+                  "title": "Rump Session Opening + Quiz Announcement",
+                  "abstract": "",
+                  "authors": [
+                    "Rump session chairs"
+                  ],
+                  "affiliations": "",
+                  "id": "talk-31",
+                  "starttime": "17:15",
+                  "endtime": "17:19"
+                },
+                {
+                  "paperId": "21",
+                  "title": "Our journey to Eurocrypt 20xx in Zagreb, Croatia (Episode 1)",
+                  "abstract": "",
+                  "authors": [
+                    "Lejla Batina",
+                    "Stjepan Picek"
+                  ],
+                  "affiliations": "Radboud University, Netherlands,TU Delft, Netherlands",
+                  "id": "talk-22",
+                  "starttime": "17:20",
+                  "endtime": "17:25"
+                },
+                {
+                  "paperId": "9",
+                  "title": "MP-SPDZ: A Versatile Framework for Multi-Party Computation",
+                  "abstract": "MP-SPDZ is a framework implementing more than 20 MPC protocols, all of which can be used with the same high-level programming interface based on Python. I would like to present the main properties of the framework followed by a brief demo.",
+                  "authors": [
+                    "Marcel Keller"
+                  ],
+                  "affiliations": "CSIRO's Data61",
+                  "id": "talk-11",
+                  "starttime": "17:26",
+                  "endtime": "17:30"
+                },
+                {
+                  "paperId": "22",
+                  "title": "OLE Extension from OT Extension",
+                  "abstract": "We present an optimal, perfectly secure reduction from OLE over GF(2^n) to string OTs. This was facilitated by the discovery of an unexpected group structure in the former. This leads to a \"true\" OLE extension based only on OT extensions in a black-box manner.",
+                  "authors": [
+                    "Manoj Prabhakaran"
+                  ],
+                  "affiliations": "IIT Bombay",
+                  "id": "talk-23",
+                  "starttime": "17:31",
+                  "endtime": "17:34"
+                },
+                {
+                  "paperId": "19",
+                  "title": "IndoCrypt 2020",
+                  "abstract": "Announcing IndoCrypt 2020",
+                  "authors": [
+                    "Manoj Prabhakaran"
+                  ],
+                  "affiliations": "IIT Bombay",
+                  "id": "talk-20",
+                  "starttime": "17:35",
+                  "endtime": "17:37"
+                },
+                {
+                  "paperId": "7",
+                  "title": "ROM gets quite irate",
+                  "abstract": "(Monty Python parody)",
+                  "authors": [
+                    "Olivier Blazy"
+                  ],
+                  "affiliations": "",
+                  "id": "talk-9",
+                  "starttime": "17:38",
+                  "endtime": "17:41"
+                },
+                {
+                  "paperId": "13",
+                  "title": "Flying the TARDIS with CRAFT or, How to Become a UC Timelord",
+                  "abstract": "Yesterday I received an intergalactic transmission with an audio file transcribed below:\r\n\r\n\"Our journey begins the week before Eurocrypt 2120, which now takes place at the Intergalactic University of Gallifrey, after an accident involving a plague, dumb politicians, global warming and far too much toilet paper destroyed Earth. After we found out how to really control 5G networks, we realised that apart from spreading disease, we could use them to give humanity a better understanding of the arcane UC model, which our archeologists found among the ruins of Springer's archives. We believe this understanding might be the very thing needed to save Earth, so we've travelled through time and space to deliver you this slide deck explaining how to fly a TARDIS with CRAFT.\"\r\n\r\nThe slide deck in the transmission was very hard to understand, but I managed to extract its contents and create an alternative presentation, introducing the following results:\r\n\r\nWe introduce an abstract composable time model that can be used for reasoning about Time And Relative Delay in Simulation (TARDIS), also capturing for the first time Time Lock Puzzles in the UC framework and showing that a programmable random oracle is necessary for realizing them. We motivate this model by building on it to introduce CRAFT: Composable Randomness and Almost Fair computation from Timing based primitives, where we extend our TARDIS treatment to Verifiable Delay Functions and publicly verifiable time lock puzzles, which can be used for building efficient UC-secure randomness beacons MPC with output independent abort (the next best thing when fairness is impossible).",
+                  "authors": [
+                    "Bernardo David"
+                  ],
+                  "affiliations": "",
+                  "id": "talk-14",
+                  "starttime": "17:42",
+                  "endtime": "17:46"
+                },
+                {
+                  "paperId": "29",
+                  "title": "I will survive",
+                  "abstract": "",
+                  "authors": [
+                    "Women in Theory"
+                  ],
+                  "affiliations": "",
+                  "id": "talk-30",
+                  "starttime": "17:47",
+                  "endtime": "17:49"
+                }
+              ],
+              "id": "session-1"
+            }
+          ]
+        },
+        {
+          "endtime": "17:54",
+          "starttime": "17:50",
+          "sessions": [
+            {
+              "session_title": "Break",
+              "id": "session-2"
+            }
+          ]
+        },
+        {
+          "endtime": "18:24",
+          "starttime": "17:55",
+          "sessions": [
+            {
+              "session_title": "Part Two",
+              "talks": [
+                {
+                  "paperId": "8",
+                  "title": "Can a Blockchain Keep a Secret?",
+                  "abstract": "Blockchains are gaining traction and acceptance, not just for cryptocurrencies but increasingly as a general-purpose architecture for distributed computing. In this work we seek solutions that allow a blockchain to act as a trusted long-term repository of secret information: Our goal is to deposit a secret with the blockchain and specify how to use it (e.g., the conditions under which it is released), and have the blockchain keep this information secret and use it only in the requested manner (e.g., only release it once the conditions are met). This simple functionality would be an enabler for many powerful applications, including signing statements on behalf of the blockchain, using blockchain as the control plane for a storage system,  performing decentralized program-obfuscation-as-a-service, and many more.\r\n\r\nWe present a scalable solution for implementing this functionality on a public proof-of-stake blockchain, in the presence of a mobile adversary controlling a small minority of the stake, using proactive secret sharing techniques. The main challenge is that, on the one hand, scalability requires that we use small committees to represent the entire stake, but, on the other hand, a mobile adversary may be able to corrupt the entire committee if it is small. For this reason, prior proactive secret sharing solutions are either non-scalable or insecure in our setting.\r\n\r\nWe solve this issue using ``player replaceability'', where the committee is anonymous until after it performs its actions, as in the Algorand blockchain. (Algorand uses player replaceability to defend against DDoS attacks.) Our main technical contribution is a system that allows sharing and re-sharing of secrets among the members of small dynamic committees, without knowing who they are until after they perform their actions. Our solution handles a fully mobile adversary corrupting less than 25\\% of the stake at any time, and is scalable in terms of both the number of parties on the blockchain and the number of time intervals.",
+                  "authors": [
+                    "Fabrice Benhamouda",
+                    "Craig Gentry",
+                    "Sergey Gorbunov",
+                    "Shai Halevi",
+                    "Hugo Krawczyk",
+                    "Chengyu Lin",
+                    "Tal Rabin",
+                    "Leonid Reyzin"
+                  ],
+                  "affiliations": "Algorand Foundation,Algorand Foundation,Algorand,Algorand Foundation,Algorand Foundation,Columbia University,Algorand Foundation,Algorand",
+                  "id": "talk-10",
+                  "starttime": "17:55",
+                  "endtime": "17:59"
+                },
+                {
+                  "paperId": "17",
+                  "title": "Replay, Relay and Inverse-Sybil Attacks on Proximity Tracing Apps",
+                  "abstract": "We outline several known attacks against proximity tracing apps and some super simple ways how to prevent them",
+                  "authors": [
+                    "Krzysztof Pietrzak"
+                  ],
+                  "affiliations": "IST Austria",
+                  "id": "talk-18",
+                  "starttime": "18:00",
+                  "endtime": "18:03"
+                },
+                {
+                  "paperId": "6",
+                  "title": "Chasing Infected People",
+                  "abstract": "We review how the prominent decentralized contact tracing scheme suffers from deanonymization attacks on reported users and what countermeasures were proposed.",
+                  "authors": [
+                    "Serge Vaudenay"
+                  ],
+                  "affiliations": "EPFL",
+                  "id": "talk-8",
+                  "starttime": "18:04",
+                  "endtime": "18:08"
+                },
+                {
+                  "paperId": "26",
+                  "title": "Anonymous tracing, a dangerous oxymoron",
+                  "abstract": "",
+                  "authors": [
+                    "Risques traçage team"
+                  ],
+                  "affiliations": "",
+                  "id": "talk-27",
+                  "starttime": "18:09",
+                  "endtime": "18:10"
+                },
+                {
+                  "paperId": "16",
+                  "title": "How to explain tracing to your children ... and your boss",
+                  "abstract": "We will explain a new protocol after  PEPP-PT, DP3T ROBERT and DESIRE, here it is 7P working everwhere. If enough time we'll explain how to transform into a pedagogical game, such goose game or monopoly with the money coro.",
+                  "authors": [
+                    "Jean-Jacques Quisquater"
+                  ],
+                  "affiliations": "UCLouvain",
+                  "id": "talk-17",
+                  "starttime": "18:11",
+                  "endtime": "18:15"
+                },
+                {
+                  "paperId": "20",
+                  "title": "The Rise (and Fall?) of​ (De)Centralized ​Automatic Contact Tracing",
+                  "abstract": "Governments are proposing the use of smartphone applications to implement automatic contact tracing of citizens. This raises the natural question of whether such systems can be a subtle weapon for governments to violate the privacy of their citizens as part of new and more sophisticated mass surveillance programs.\r\nMotivated by Snowden's revelations,  we show how a government can exploit the use of DP-3T (and friends) to successfully mount privacy attacks as part of a mass surveillance program. \r\nWe then propose a different system named Pronto-C2 that is (really) based on a privacy-preserving and decentralized design.",
+                  "authors": [
+                    "Gennaro Avitabile",
+                    "Vincenzo Botta",
+                    "Vincenzo Iovino",
+                    "Ivan Visconti"
+                  ],
+                  "affiliations": "DIEM - University of Salerno,DIEM - University of Salerno,DIEM - University of Salerno,DIEM - University of Salerno",
+                  "id": "talk-21",
+                  "starttime": "18:16",
+                  "endtime": "18:20"
+                },
+                {
+                  "paperId": "11",
+                  "title": "Isogeny-based winter school",
+                  "abstract": "",
+                  "authors": [
+                    "Chloe Martindale",
+                    "Christophe Petit"
+                  ],
+                  "affiliations": "University of Bristol,Birmingham University",
+                  "id": "talk-12",
+                  "starttime": "18:21",
+                  "endtime": "18:21"
+                },
+                {
+                  "paperId": "12",
+                  "title": "Zoom zoom zoom zoom",
+                  "abstract": "",
+                  "authors": [
+                    "Chloe Martindale"
+                  ],
+                  "affiliations": "University of Bristol",
+                  "id": "talk-13",
+                  "starttime": "18:22",
+                  "endtime": "18:24"
+                }
+              ],
+              "id": "session-3"
+            }
+          ]
+        },
+        {
+          "endtime": "18:34",
+          "starttime": "18:25",
+          "sessions": [
+            {
+              "session_title": "Break (+announcing the bonus question)",
+              "id": "session-4"
+            }
+          ]
+        },
+        {
+          "endtime": "19:15",
+          "starttime": "18:35",
+          "sessions": [
+            {
+              "session_title": "Part Three",
+              "talks": [
+                {
+                  "paperId": "18",
+                  "title": "From physical to virtual conferences",
+                  "abstract": "Virtual conferences were thrust upon us by unfortunate circumstances, but are just another step in the history of scientific communication. They will get better.",
+                  "authors": [
+                    "Kevin McCurley",
+                    "Kay McKelly"
+                  ],
+                  "affiliations": "Retired",
+                  "id": "talk-19",
+                  "starttime": "18:35",
+                  "endtime": "18:38"
+                },
+                {
+                  "paperId": "14",
+                  "title": "Cryptography in the (Un)bounded Toilet Paper Model",
+                  "abstract": "We show how to make one-time pads practical, build efficient one time use programs, generate randomness, build OT and realize chemical cryptography in the (Un)bounded Toilet Paper model.",
+                  "authors": [
+                    "Carsten Baum",
+                    "Bernardo David"
+                  ],
+                  "affiliations": "Aarhus University, IT University of Copenhagen",
+                  "id": "talk-15",
+                  "starttime": "18:39",
+                  "endtime": "18:42"
+                },
+                {
+                  "paperId": "15",
+                  "title": "Expected Constant Round Byzantine Broadcast under Dishonest Majority",
+                  "abstract": "Byzantine Broadcast (BB) is a central question in distributed systems, and an important challenge is to understand its round complexity. Under the  honest majority setting, it is long known that there exist randomized protocols that can achieve BB in expected constant rounds, regardless of the number of nodes $n$. However, whether we can match the expected constant round complexity in the corrupt majority setting --- or more precisely, when $f \\geq n/2 + \\omega(1)$ --- remains unknown, where $f$ denotes the number of corrupt nodes. \r\n\r\nWe are the first to resolve this long-standing question. We show how to achieve BB in expected $O((n/(n-f))^2)$ rounds. In particular, even when 99\\% of the nodes are corrupt we can achieve expected constant rounds. Our results hold under both a static adversary and a weakly adaptive adversary who cannot perform ``after-the-fact removal'' of messages already sent by a node before it becomes corrupt.",
+                  "authors": [
+                    "Jun Wan",
+                    "Hanshen Xiao",
+                    "Elaine Shi",
+                    "Srini Devadas"
+                  ],
+                  "affiliations": "MIT,MIT,Cornell University,MIT",
+                  "id": "talk-16",
+                  "starttime": "18:43",
+                  "endtime": "18:47"
+                },
+                {
+                  "paperId": "27",
+                  "title": "Job announcement: postdoc in Paris on proven crypto implementations for IoT",
+                  "abstract": "",
+                  "authors": [
+                    "Benjamin Smith"
+                  ],
+                  "affiliations": "Inria + École polytechnique",
+                  "id": "talk-28",
+                  "starttime": "18:48",
+                  "endtime": "18:48"
+                },
+                {
+                  "paperId": "23",
+                  "title": "Cryptanalysis Results on the NIST Candidate Gimli (WIP)",
+                  "abstract": "",
+                  "authors": [
+                    "Antonio Flórez Gutiérrez",
+                    "Gaëtan Leurent",
+                    "María Naya-Plasencia",
+                    "Léo Perrin",
+                    "André Schrottenloher",
+                    "Ferdinand Sibleyras"
+                  ],
+                  "affiliations": "Inria,Inria,Inria,Inria,Inria,Inria",
+                  "id": "talk-24",
+                  "starttime": "18:49",
+                  "endtime": "18:53"
+                },
+                {
+                  "paperId": "24",
+                  "title": "Standardisation Robustness: Practical distinguishers on FFX3.1/1 and FEA1/2",
+                  "abstract": "",
+                  "authors": [
+                    "Orr Dunkelman",
+                    "Abhishek Kumar",
+                    "Eran Lambooij",
+                    "Somitra Kumar Sanadhya"
+                  ],
+                  "affiliations": "University of Haifa,IIT Ropar,University of Haifa,IIT Ropar",
+                  "id": "talk-25",
+                  "starttime": "18:54",
+                  "endtime": "18:55"
+                },
+                {
+                  "paperId": "25",
+                  "title": "A jealous cryptanalyst: In search of a short vector",
+                  "abstract": "A story about a cryptanalyst that is jealous at the hardware of the machine learning group.",
+                  "authors": [
+                    "Wessel van Woerden",
+                    "Leo Ducas",
+                    "Marc Stevens"
+                  ],
+                  "affiliations": "Centrum Wiskunde & Informatica (CWI),Centrum Wiskunde & Informatica (CWI),Centrum Wiskunde & Informatica (CWI)",
+                  "id": "talk-26",
+                  "starttime": "18:56",
+                  "endtime": "18:58"
+                },
+                {
+                  "paperId": "28",
+                  "title": "Incentives for LowMC Cryptanalysis in the Low-Data Scenario",
+                  "abstract": "",
+                  "authors": [
+                    "Christian Rechberger"
+                  ],
+                  "affiliations": "TU Graz",
+                  "id": "talk-29",
+                  "starttime": "18:59",
+                  "endtime": "19:03"
+                },
+                {
+                  "paperId": "34",
+                  "title": "Tiramisu: Black-Box Simulation Extractable NIZKs in the Updatable CRS Model",
+                  "abstract": "https://eprint.iacr.org/2020/474",
+                  "authors": [
+                    "Karim Baghery",
+                    "Mahdi Sedaghat"
+                  ],
+                  "affiliations": "imec-COSIC, KU Leuven & University of Tartu,imec-COSIC, KU Leuven",
+                  "id": "talk-35",
+                  "starttime": "19:04",
+                  "endtime": "19:08"
+                },
+                {
+                  "paperId": "35",
+                  "title": "Quantum Garbled Circuits",
+                  "abstract": "Yao's garbled circuits protocol has long been an important tool in cryptography; it's been useful for secure multiparty computation, zero knowledge protocols, program obfuscation, and more. An open question has been whether there is garbled circuits scheme for quantum computation. In a forthcoming paper we present a scheme for garbling quantum circuits",
+                  "authors": [
+                    "Zvika Brakerski",
+                    "Henry Yuen"
+                  ],
+                  "affiliations": "Weizmann Institute of Science,University of Toronto",
+                  "id": "talk-36",
+                  "starttime": "19:09",
+                  "endtime": "19:13"
+                },
+                {
+                  "paperId": "33",
+                  "title": "End of the rump session + Quiz winner and best presentation award ceremony",
+                  "abstract": "",
+                  "authors": [
+                    "Rump session chairs"
+                  ],
+                  "affiliations": "",
+                  "id": "talk-34",
+                  "starttime": "19:14",
+                  "endtime": "19:15"
+                }
+              ],
+              "id": "session-5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "database_id": "312"
+}

@@ -133,7 +133,7 @@
                   </h5>
                   {{#if sessions.0.location.name}}
                   <p class="dualTrackDescr">
-                    {{sessions.0.location.name}}
+                    {{{sessions.0.location.name}}}
                   </p>
                   {{/if}}
                   {{#if sessions.0.moderator}}
@@ -184,7 +184,7 @@
                   </h5>
                   {{#if sessions.1.location.name}}
                   <p class="dualTrackDescr">
-                    {{sessions.1.location.name}}
+                    {{{sessions.0.location.name}}}
                   </p>
                   {{/if}}
                   {{#if sessions.1.moderator}}
@@ -239,7 +239,7 @@
                   {{/if}}
                   {{#if sessions.0.location.name}}
                   <p class="eventDescr">
-                    {{sessions.0.location.name}}
+                    {{{sessions.0.location.name}}}
                   </p>
                   {{/if}}
                   {{#if sessions.0.moderator}}

@@ -1068,6 +1068,9 @@
             {
               "id": "session-200",
               "session_title": "Rump Session",
+              "location": {
+                  "name": "<a href='rumpprogram.php'>Program is now available</a>"
+              },
               "moderator": "Chairs: Yilei Chen, Rishab Goyal, and Lisa Kohl",
               "session_url": "https://eurocrypt.iacr.org/2020/rumpsession.php"
             }
