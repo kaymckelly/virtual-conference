@@ -24,6 +24,9 @@
            can always use the program editor to create your program: https://iacr.org/tools/program
            and then copy stuff from program.php and js/program.js.
       -->
+      <p class="alert alert-info">
+        The <a href="rumpprogram.php">rump session program</a> is now available.
+      </p>
       <h3 class="pageSubtitle">
         Call for Papers
       </h3>
@@ -115,7 +118,7 @@
         </div>
         <div class="col-12 col-md-5">
           <p class="alert alert-info">
-            The detailed program for the rump session will be announced on this web page. There are no current plans to distribute printed programs, but we are open to suggestions. 😃
+            The detailed program for the rump session <a href="rumpprogram.php">is available here</a>. There are no current plans to distribute printed programs, but we are open to suggestions. 😃
 
           </p>
         </div>
