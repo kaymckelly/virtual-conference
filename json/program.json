@@ -1029,13 +1029,13 @@
                   "title": "Mathematics and Cryptography: A Marriage of Convenience?",
                   "category": "Uncategorized",
                   "id": "talk-30257",
-                  "affiliations": "University of California, Irvine",
+                    "affiliations": "University of California, Irvine",
                   "paperUrl": "http://dx.doi.org/10.1007/978-3-030-45721-1_1"
                 }
               ],
               "moderator": "Moderators: Anne Canteaut and Yuval Ishai",
               "location": {
-                "name": "44-minute recorded video linked below. The session will have an interactive live talk with Q&A"
+                "name": "There are two different versions of the talk. Click on the Media link below for the 44-minute pre-recorded video. Click on the above YouTube link for the \"live\" talk with Q&A."
               }
             }
           ]
@@ -1280,19 +1280,6 @@
               "talks": [
                 {
                   "authors": [
-                    "Ronald Cramer",
-                    "Chaoping Xing"
-                  ],
-                  "pubkey": 30181,
-                  "keywords": "foundations of secret sharing;blackbox secret sharing",
-                  "title": "Blackbox Secret Sharing Revisited: A Coding-Theoretic Approach with Application to Expansionless Near-Threshold Schemes",
-                  "category": "foundations of secret sharing",
-                  "id": "talk-30181",
-                  "affiliations": "CWI Amsterdam; Leiden University; Shanghai Jiaotong University; Nanyang Technological University",
-                  "paperUrl": "http://dx.doi.org/10.1007/978-3-030-45721-1_18"
-                },
-                {
-                  "authors": [
                     "Amos Beimel",
                     "Hussien Othman"
                   ],
@@ -1419,7 +1406,10 @@
             {
               "id": "session-212",
               "session_title": "Panel Discussion on Contact Tracing",
-              "moderator": "Moderators: Luca De Feo, Léo Ducas, and Matthew Green"
+              "moderator": "Moderators: Luca De Feo, Léo Ducas, and Matthew Green",
+              "location": {
+                  "name": "Panelists: Ross Anderson, Claude Castellucia, Kevin McCurley, Vanessa Teague, Carmela Troncoso, Serge Vaudenay, Moti Yung"
+              }
             }
           ]
         }
@@ -1523,6 +1513,19 @@
                   "id": "talk-30208",
                   "affiliations": "Stanford University",
                   "paperUrl": "http://dx.doi.org/10.1007/978-3-030-45724-2_20"
+                },
+                {
+                  "authors": [
+                    "Ronald Cramer",
+                    "Chaoping Xing"
+                  ],
+                  "pubkey": 30181,
+                  "keywords": "foundations of secret sharing;blackbox secret sharing",
+                  "title": "Blackbox Secret Sharing Revisited: A Coding-Theoretic Approach with Application to Expansionless Near-Threshold Schemes",
+                  "category": "foundations of secret sharing",
+                  "id": "talk-30181",
+                  "affiliations": "CWI Amsterdam; Leiden University; Shanghai Jiaotong University; Nanyang Technological University",
+                  "paperUrl": "http://dx.doi.org/10.1007/978-3-030-45721-1_18"
                 }
               ],
               "id": "session-207"

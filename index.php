@@ -132,6 +132,14 @@
               May 12 2020
             </h6>
             <p class="col-7 col-md-8">
+              <a href="rumpprogram.php">Rump session program is available</a>.
+            </p>
+          </div>
+          <div class="customCardRow row">
+            <h6 class="dateTitle col-5 col-md-4">
+              May 12 2020
+            </h6>
+            <p class="col-7 col-md-8">
               <a href="rumpsession.php">Rump session deadline extended</a>.
             </p>
           </div>

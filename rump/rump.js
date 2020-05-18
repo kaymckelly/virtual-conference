@@ -89,10 +89,10 @@ function loadProgram(name) {
 $(document).ready(function() {
     console.log('loading');
     loadProgram('rump/rump.php?v=' + Date.now());
-    let now = new Date();
-    console.dir(now);
-    if (now > new Date('2050-05-13T17:00:00Z')) {
-        console.dir(now);
-        document.getElementById('quiz').classList.remove('d-none');
-    }
+//    let now = new Date();
+//    console.dir(now);
+//    if (now > new Date('2050-05-13T17:00:00Z')) {
+//        console.dir(now);
+//        document.getElementById('quiz').classList.remove('d-none');
+//    }
 });

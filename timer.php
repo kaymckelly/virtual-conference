@@ -39,7 +39,7 @@
 
     <header id="headerGrad" class="pt-4 px-3 d-flex justify-content-between">
       <h1>
-        Eurocrypt 2020
+        <a href="https://eurocrypt.iacr.org/">Eurocrypt 2020</a>
       </h1>
       <div id="clockdiv" class="d-flex w-50">
         <h3 class="pt-2 mr-4">Time until session starts:</h3>
