@@ -31,7 +31,7 @@
 
       <p class="alert alert-info">
         There will be a quiz during the program. Questions will be announced during the program.
-        <span id="quiz" class="d-none">You will go to <a href="https://forms.gle/k38QSbEh24pHUVjK7">this page to answer the quiz.</a></span>
+        <span>You will go to <a href="https://forms.gle/k38QSbEh24pHUVjK7">this page to answer the quiz.</a></span>
       </p>
       <p class="alert alert-info">
         There will be a poll for the best rump session presentation. When the session is
@@ -277,6 +277,6 @@
     <script src="./js/tooltips.js"></script>
     <script src="https://iacr.org/libs/js/moment/moment.js"></script>
     <script src="https://iacr.org/libs/js/moment/moment-timezone-with-data-10-year-range.js"></script>
-    <script src="rump/rump.js?v=4"></script>
+    <script src="rump/rump.js?v=5"></script>
   </body>
 </html>

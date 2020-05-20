@@ -42,7 +42,8 @@ foreach($editorData['days'] as $dayindex => &$day) {
       }
       // These are for past recordings.
       if (isset($extraLinks['youtube'][$session['id']])) {
-        $session['youtubeUrl'] = proxyUrl($confname, $extraLinks['youtube'][$session['id']]);
+//        $session['youtubeUrl'] = proxyUrl($confname, $extraLinks['youtube'][$session['id']]);
+        $session['youtubeUrl'] = $extraLinks['youtube'][$session['id']];
       }
       if (isset($extraLinks['chat'][$session['id']])) {
         $session['chatUrl'] = proxyUrl($confname, $extraLinks['chat'][$session['id']]);

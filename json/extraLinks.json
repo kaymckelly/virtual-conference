@@ -1,5 +1,7 @@
 {
     "zoom": {
+    },
+    "zoom-hidden": {
         "session-177": "https://us02web.zoom.us/j/89694090922",
         "session-178": "https://us02web.zoom.us/j/89028866662",
         "session-180": "https://us02web.zoom.us/j/88186451761",
@@ -26,6 +28,28 @@
         "session-212": "https://us02web.zoom.us/j/88373159914"
     },
     "youtube": {
+        "session-192": "https://youtu.be/O3-SX0JgQbA",
+        "session-190": "https://youtu.be/y9F8ObxN4jE",
+        "session-188": "https://youtu.be/gH2itJrRyRc",
+        "session-186": "https://youtu.be/bS9kKMycgTA",
+        "session-185": "https://youtu.be/zCJ5mrH9_zs",
+        "session-184": "https://youtu.be/XdxTx9zR9WQ",
+        "session-182": "https://youtu.be/EJIUSvP-XPw",
+        "session-180": "https://youtu.be/DF4gzTMiy1I",
+        "session-178": "https://youtu.be/3Xpv09eBr3g",
+        "session-193": "https://youtu.be/8ZUJW5eJs9w",
+        "session-194": "https://youtu.be/NloqPTyVWvQ",
+        "session-196": "https://youtu.be/22T19Y_01MM",
+        "session-198": "https://youtu.be/_wPR8dsU63s",
+        "session-200": "https://youtu.be/XVXKLOWxw7c",
+        "session-201": "https://youtu.be/HIvjsphc90E",
+        "session-202": "https://youtu.be/id_N8UDaj7A",
+        "session-204": "https://youtu.be/zt4mjBBZ49M",
+        "session-206": "https://youtu.be/aP2Slp2bbUc",
+        "session-207": "https://youtu.be/ObIY9ITylEs",
+        "session-209": "https://youtu.be/oliqypSxnJA",
+        "session-211": "https://youtu.be/jORKCMt3xwQ",
+        "session-212": "https://youtu.be/Xt4P8E_Y-xc",
         "30176": "https://youtube.com/watch?v=TDbNzyehJFw",
         "30177": "https://youtube.com/watch?v=jAlYxOQGgWg",
         "30178": "https://youtube.com/watch?v=bM0dlsjJzX4",
@@ -104,7 +128,8 @@
         "30254": "https://youtube.com/watch?v=OknVQzSyw2k",
         "30255": "https://youtube.com/watch?v=6TZygPYIWH0",
         "30256": "https://youtube.com/watch?v=XJeg-cyqQtg",
-        "30257": "https://youtube.com/watch?v=6OmL0eu88Ak"
+        "30257": "https://youtube.com/watch?v=6OmL0eu88Ak",
+        "30217": "https://youtube.com/watch?v=D1ONvPqplK0"
     },
     "chat": {
         "session-178": "https://chat.iacr.org/#narrow/stream/13-01-Mon-OpeningRemarksandNumberTheoreticCryptography",
